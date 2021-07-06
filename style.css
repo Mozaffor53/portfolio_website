@@ -66,3 +66,41 @@ body{margin: 0;
     margin-bottom: 100px;
 
 }
+
+.recipies-container{
+    margin: 6%;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    color: #575757;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+.content p{
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 15px;
+
+}
+.recipies-box{
+    width: 30%;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 8px 8px 15px #ddd;
+    border-radius: 20px;
+    
+
+}
+.recipies-box img{
+    width: 100%;
+    border-radius: 20px;
+    
+
+
+}
+.recipies-box h3{
+    color: #575757;
+}
