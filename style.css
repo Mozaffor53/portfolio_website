@@ -3,6 +3,27 @@ body{margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+header{
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+#manu ul{list-style: none;
+         display: flex;
+
+}
+#manu a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#4b7bec ;
+}
+#manu a:hover{
+    color: #f0932b;
+    cursor: pointer;
+}
+
 .half-width h1{font-size: 50px;
     color: #575757;
     margin: 80px 0 50px 0;
@@ -30,10 +51,15 @@ body{margin: 0;
 .link-btn{
     text-decoration: none;
     background-image: linear-gradient(#81ecec,#4b7bec);
-    padding: 20px 40px;
+    padding: 15px 30px;
     color: white;
-    border-radius: 30px;
+    border-radius: 10px;
     font-weight: 700;
+
+}
+.link-btn:hover{
+    background-image: linear-gradient(#f0932b,#ffbe76);
+    cursor: pointer;
 
 }
 
@@ -131,4 +157,14 @@ body{margin: 0;
     color: #828282;
     margin-top: 5px;
 
+}
+
+footer{
+    text-align: center;
+    padding: 30px 30px;
+   background-color:#1f2536;
+   color: white;
+}
+footer h1{
+    color:#575757 ;
 }
